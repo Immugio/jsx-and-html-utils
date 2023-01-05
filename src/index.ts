@@ -3,4 +3,4 @@ export { findParentWithAttribute } from "./findParentWithAttribute";
 export { clearChildren } from "./clearChildren";
 export { getElementAsync } from "./getElementAsync";
 export { isElementChildOf } from "./isElementChildOf";
-export { dom } from "./JSX";
+export { dom, AnyContent } from "./JSX";
