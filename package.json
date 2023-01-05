@@ -1,6 +1,6 @@
 {
   "name": "@immugio/jsx-and-html-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Set of utilities for 2d and 3d line math built on top of three.js",
   "author": "Jan Mikeska <janmikeska@gmail.com>",
   "license": "ISC",
@@ -44,8 +44,7 @@
     "typedoc-plugin-markdown": "^3.14.0",
     "typescript": "4.7.4"
   },
-  "peerDependencies": {
-  },
+  "peerDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Immugio/jsx-and-html-utils.git"
