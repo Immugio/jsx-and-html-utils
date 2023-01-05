@@ -1,0 +1,9 @@
+Update documentation:
+npx typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts --excludeExternals --excludeProtected --excludePrivate --githubPages false
+
+Before release
+- Ensure clean working directory
+- Run "prerelease" script to verify that the code builds and the tests pass
+
+Release:
+- Run  npm version [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease | from-git]
