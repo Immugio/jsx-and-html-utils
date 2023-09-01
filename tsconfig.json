@@ -7,9 +7,11 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "node",
-    "lib": [ "esnext", "dom" ],
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
     "jsx": "react",
-    "jsxFactory": "dom"
+    "jsxFactory": "dom",
+    "lib": [ "esnext", "dom" ]
   },
   "compileOnSave": true,
   "include": [ "src/**/*" ],
